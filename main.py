@@ -26,7 +26,7 @@ def random_time(start,end):
     diff = end - start
     
     hour = start + random.randint(0, diff)
-    minute = random.randint(0,61) #61 because the upper limited is exclusive.
+    minute = random.randint(0,60) #randint excludes the upper bound. So max will be 59.
     
     result = Time(hour,minute)
     
