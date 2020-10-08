@@ -33,8 +33,8 @@ def random_time(start,end):
     return str(result)
 
 
-START_TIME = 1
-END_TIME = 9
+START_TIME = 2
+END_TIME = 11
 
 
 result = random_time(START_TIME, END_TIME)
